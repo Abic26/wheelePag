@@ -3,7 +3,7 @@ import React from "react";
 export const SobreMiComponent = () => {
   return (
     <div id="sobreNosotros" className="min-h-screen text-white p-10 lg:p-20">
-      <div className="flex flex-col pt-54 lg:flex-row justify-between gap-14 lg:gap-24">
+      <div className="flex flex-col pt-54 lg:flex-row justify-between gap-14 lg:gap-24 ">
         {/* Sección sobre mí */}
         <div className="flex-1">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 hover:text-cyan-900">
@@ -11,65 +11,83 @@ export const SobreMiComponent = () => {
           </h2>
           <div>
             <p className="text-sm lg:text-base opacity-55">
-              En SASOS, nos dedicamos apasionadamente a ofrecer las mejores
-              soluciones tecnológicas para que tu empresa siempre esté a la
-              vanguardia en un mundo en constante cambio. Desde nuestro inicio,
-              hemos estado comprometidos con la excelencia en el servicio y la
-              satisfacción del cliente.
+              Somos SASOS, una compañía dedicada a ofrecer soluciones integrales
+              en el ámbito del software. Nos hemos consolidado como líderes en
+              el sector gracias a nuestra pasión por la innovación y el
+              compromiso con la excelencia.
             </p>
           </div>
           <br />
           <div>
             <p className="text-sm lg:text-base opacity-55">
-              Nuestro compromiso con la calidad y la innovación nos impulsa a
-              proporcionar un portafolio de productos de primera clase que
-              abarca tanto hardware como software, ofreciendo a nuestros
-              clientes la gama más amplia de opciones para cubrir sus
-              necesidades tecnológicas.
+              Comprendemos las necesidades únicas de cada cliente y nos
+              esforzamos por proporcionar soluciones personalizadas que impulsen
+              su éxito empresarial. Nuestro equipo de expertos altamente
+              capacitados combina habilidades técnicas sólidas con un profundo
+              conocimiento del mercado para ofrecer servicios de mantenimiento y
+              venta de software de la más alta calidad.
             </p>
           </div>
           <br />
 
           <div>
             <p className="text-sm lg:text-base opacity-55">
-              Entendemos que el correcto funcionamiento de tu empresa es de
-              vital importancia, por lo que nos esforzamos por ofrecer un
-              servicio integral que incluye soporte técnico, asesoría
-              especializada y total garantía en cada compra que realizas con
-              nosotros. Nuestro equipo está compuesto por expertos en cada área
-              de conocimiento, listos para brindarte la atención personalizada
-              que mereces.
+              Nos enorgullece ofrecer una amplia gama de servicios, que incluyen
+              mantenimiento preventivo y correctivo, actualizaciones de
+              software, soporte técnico continuo y consultoría especializada.
+              Además, trabajamos en estrecha colaboración con nuestros clientes
+              para entender sus objetivos y desafíos específicos, brindando
+              soluciones que no solo satisfacen sus necesidades actuales, sino
+              que también los preparan para el futuro.
             </p>
           </div>
           <br />
 
           <div>
             <p className="text-sm lg:text-base opacity-55">
-              En SASOS, valoramos tu tiempo y tu confianza. Es por eso que nos
-              aseguramos de que tu mercancía llegue a tiempo y en óptimas
-              condiciones, gracias al apoyo logístico de las principales
-              compañías de transporte aéreo y terrestre.
+              En SASOS la satisfacción del cliente es nuestra máxima prioridad.
+              Nos esforzamos por establecer relaciones sólidas y duraderas con
+              cada cliente, basadas en la confianza, la transparencia y el
+              compromiso mutuo. Estamos comprometidos a proporcionar un servicio
+              excepcional en cada paso del camino, desde la consulta inicial
+              hasta la implementación y más allá.
             </p>
           </div>
           <br />
 
           <div>
             <p className="text-sm lg:text-base opacity-55">
-              Nuestra misión es ser tu socio de confianza en el camino hacia el
-              éxito tecnológico de tu empresa. Estamos aquí para ayudarte a
-              llevar tu negocio al siguiente nivel, proporcionándote las
-              herramientas y el soporte que necesitas para prosperar en un mundo
-              digital en constante evolución.
+              Si buscas un socio de confianza para satisfacer tus necesidades de
+              mantenimiento y venta de software, SASOS está aquí para ayudarte.
+              Contáctanos hoy mismo para descubrir cómo podemos ayudarte a
+              alcanzar tus objetivos empresariales
             </p>
           </div>
           <br />
-
-          <div>
-            <p className="text-sm lg:text-base">
-              ¡Únete a nosotros en SASOS y descubre por qué somos la opción
-              preferida de empresas que buscan excelencia, calidad y compromiso
-              en soluciones tecnológicas!
-            </p>
+          <br />
+          <br />
+          <div className="flex gap-6">
+            <div>
+              <h3 className="text-3xl lg:text-4xl font-bold mb-6 hover:text-cyan-900">
+                Misión
+              </h3>
+              <p className="text-sm lg:text-base opacity-55">
+                Ofrecer servicios de asesoramiento, implantación, mantenimiento
+                y venta para soluciones de tecnología que aporten valor añadido
+                a nuestros clientes y ayuden a mejorar sus procesos de negocios.{" "}
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl lg:text-4xl font-bold mb-6 hover:text-cyan-900">
+                Visión
+              </h3>
+              <p className="text-sm lg:text-base opacity-55">
+                En el plazo de dos años ser reconocidos como la mejor y más
+                grande empresa a nivel nacional por la calidad de nuestro
+                trabajo y la honestidad de nuestros servicios como un socio
+                tecnológico y un factor de crecimiento para nuestros clientes.
+              </p>
+            </div>
           </div>
         </div>
       </div>
